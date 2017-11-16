@@ -32,6 +32,7 @@ function stormssh(){
 function ohmyzsh(){
     sudo apt install git zsh
     sudo bash -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    sudo echo "PS1='${ret_status} ${USER} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'" >> $ZSH/oh-my-zsh.sh 
 }
 
 
