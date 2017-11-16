@@ -1,0 +1,9 @@
+{
+    "aliases": {
+        "add": ["create", "touch"],
+        "delete": ["rm"],
+        "search": ["sch","lm","ll"],
+        "list": ["ls"]
+    }
+
+}
